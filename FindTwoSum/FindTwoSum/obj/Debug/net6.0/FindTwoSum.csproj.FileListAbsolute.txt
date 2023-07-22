@@ -1,0 +1,15 @@
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\bin\Debug\net6.0\FindTwoSum.exe
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\bin\Debug\net6.0\FindTwoSum.deps.json
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\bin\Debug\net6.0\FindTwoSum.runtimeconfig.json
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\bin\Debug\net6.0\FindTwoSum.dll
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\bin\Debug\net6.0\FindTwoSum.pdb
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.csproj.AssemblyReference.cache
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.AssemblyInfoInputs.cache
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.AssemblyInfo.cs
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.csproj.CoreCompileInputs.cache
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.dll
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\refint\FindTwoSum.dll
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.pdb
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\FindTwoSum.genruntimeconfig.cache
+C:\Users\ajayu\source\repos\FindTwoSum\FindTwoSum\obj\Debug\net6.0\ref\FindTwoSum.dll

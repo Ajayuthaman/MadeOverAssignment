@@ -1,0 +1,15 @@
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\bin\Debug\net6.0\FindThreeSum.exe
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\bin\Debug\net6.0\FindThreeSum.deps.json
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\bin\Debug\net6.0\FindThreeSum.runtimeconfig.json
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\bin\Debug\net6.0\FindThreeSum.dll
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\bin\Debug\net6.0\FindThreeSum.pdb
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.csproj.AssemblyReference.cache
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.AssemblyInfoInputs.cache
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.AssemblyInfo.cs
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.csproj.CoreCompileInputs.cache
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.dll
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\refint\FindThreeSum.dll
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.pdb
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\FindThreeSum.genruntimeconfig.cache
+C:\Users\ajayu\source\repos\FindThreeSum\FindThreeSum\obj\Debug\net6.0\ref\FindThreeSum.dll
