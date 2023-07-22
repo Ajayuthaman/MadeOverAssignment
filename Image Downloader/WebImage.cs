@@ -11,7 +11,7 @@ public class WebImage : MonoBehaviour
 
     public Sprite defaultSprite;
     public bool cached;
-    TimeSpan timeCover=new TimeSpan(168,0,0);//converted to 1 week
+    TimeSpan timeCover=new TimeSpan(168,0,0);
 
     private void OnEnable()
     {
@@ -24,14 +24,13 @@ public class WebImage : MonoBehaviour
     private void Start()
     {
         GetImage();
-        /*Debug.Log(Application.dataPath);*/
+
     }
     public void GetImage()
     {
         if(File.Exists(Application.dataPath + gameObject.name+".jpg"))
         {
-            /*File.Delete(Application.dataPath + gameObject.name + ".jpg");
-            return;*/
+
             cached = true;
             byte[] byteArray = File.ReadAllBytes(Application.dataPath + gameObject.name + ".jpg");
             Texture2D texture = new Texture2D(8, 8);
@@ -52,14 +51,11 @@ public class WebImage : MonoBehaviour
     }
     void CalculateTime()
     {
-        /*if(Input.GetKey(KeyCode.Escape))
-        {
-            File.Delete(Application.persistentDataPath + gameObject.name + ".jpg");
-        }*/
+
         DateTime currentTime=DateTime.Now;
         DateTime ImageDownLoadedTime = DateTime.Parse(PlayerPrefs.GetString(gameObject.name));
         TimeSpan coverTime= currentTime.Subtract(ImageDownLoadedTime);
-        /*Debug.Log(Application.persistentDataPath + gameObject.name + ".jpg");*/
+
         if(coverTime>=timeCover)
         {
             if(File.Exists(Application.dataPath + gameObject.name+".jpg"))

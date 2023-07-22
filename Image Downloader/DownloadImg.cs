@@ -20,12 +20,7 @@ public class DownloadImg : MonoBehaviour
         if(instance==null)
         {
             instance=this;
-            /*DontDestroyOnLoad(gameObject);*/
         }
-       /* else
-        {
-            Destroy(gameObject);
-        }*/
     }
     
     void Start()
@@ -38,9 +33,8 @@ public class DownloadImg : MonoBehaviour
         {
             downloadingCount += 1;
 
-            /*UnityWebRequest request=UnityWebRequest.Get(url);*/
             UnityWebRequest request=UnityWebRequestTexture.GetTexture(url);
-            /*Debug.Log(request.url);*/
+
             request.timeout= 10;
             yield return request.SendWebRequest();
             if(request.result != UnityWebRequest.Result.Success)
@@ -52,10 +46,9 @@ public class DownloadImg : MonoBehaviour
             else
             {
                 downloadingCount-= 1;
-               /* Debug.Log("Image donwloaded");*/
-                /*Texture2D texture = DownloadHandlerTexture.GetContent(request);*/
+ 
                 Texture2D myTexture = ((DownloadHandlerTexture)request.downloadHandler).texture;
-                /*Debug.Log("Hi"+myTexture);*/
+
                 obj.GetComponent<Image>().sprite = Sprite.Create(myTexture, new Rect(0, 0, myTexture.width, myTexture.height), Vector2.zero);
                 byte[] bytes = myTexture.EncodeToJPG();
                 File.WriteAllBytes(Application.dataPath + obj.name + ".jpg", bytes);
